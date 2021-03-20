@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>320</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>500</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>500</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#Form{
+background-color: rgb(255, 255, 255);
+}</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_DiscreteWavelet1D">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>119</y>
+     <width>185</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Discrete Wavelet Analysis</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Prediction">
+   <property name="geometry">
+    <rect>
+     <x>144</x>
+     <y>190</y>
+     <width>211</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Classification</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_ContinuousWavelet1D">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>120</y>
+     <width>185</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Continuous Wavelet Analysis</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>0</y>
+     <width>381</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Wavelet Analysis Tool</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
